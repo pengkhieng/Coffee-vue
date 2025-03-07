@@ -4,18 +4,28 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+  <!-- <header>
+    <div class="w-full bg-green-100 p-0 m-0">
+      
+    </div>
+
+    <div class="grid grid-flow-col grid-rows-3 gap-4p-4 p-4">
+      <div class="row-span-3"><img alt="Vue logo" class="logo" src="@/assets/logo.png" width="125" height="125" /></div>
+      <div class="col-span-2 text-black" style="font-weight: bold; ">Sign in to your <br> <span
+          style="color: orange; font-weight: bold;">Account</span></div>
+      <div class="col-span-2 row-span-2  text-black" style="color: grey; font-weight: normal;">Singn in to your Account
+      </div>
+    </div>
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="Hey bro!" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>
-  </header>
+  </header> -->
 
   <RouterView />
 </template>
@@ -60,7 +70,7 @@ nav a:first-of-type {
   header {
     display: flex;
     place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+    /* padding-right: calc(var(--section-gap) / 2); */
   }
 
   .logo {

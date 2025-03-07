@@ -38,3 +38,14 @@ npm run build
 npm run test:unit
 ```
 # Coffee-vue
+
+# Reload ios
+```sh
+npm run build
+npx cap copy ios
+
+# Force a Full Sync
+
+npx cap sync ios
+npx cap open ios
+```
